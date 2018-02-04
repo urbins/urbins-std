@@ -1,0 +1,21 @@
+{
+  "name": "urbins-text",
+  "version": "0.0.0",
+  "description": "",
+  "author": "urbins <soheilhamidi@me.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "lib": "^3.0.1"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "urbins/urbins-text",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
